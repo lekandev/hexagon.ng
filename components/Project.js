@@ -1,5 +1,3 @@
-import Image from "next/Image"
-
 import styles from "../styles/Project.module.sass"
 
 const Project = ({ imgSrc, title, liveLink }) => {
