@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>Hexagon.ng</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" />
       </Head>
       <Hero />
       <AboutUs />
