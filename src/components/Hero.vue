@@ -26,10 +26,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'Hero'
+};
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import "./utilities/_variables";
 
 .nav__container {
@@ -70,6 +72,7 @@ nav {
     font-size: 4rem;
     text-transform: uppercase;
     margin-bottom: 20px;
+    color: $text-color1;
   }
 
   .hero__tagline {
@@ -82,7 +85,7 @@ nav {
     color: #fff !important;
     background-color: $primary-color;
     text-decoration: none;
-    border: 1px solid $primary-color;
+    border: 2px solid $primary-color;
     transition: 0.3s ease-in-out;
   }
 
@@ -92,7 +95,7 @@ nav {
 }
 
 // media queries
-@media screen (max-width: 640px) {
-    .hero__name{}
+@media screen and (max-width: 640px) {
+    // .hero__name{}
 }
 </style>

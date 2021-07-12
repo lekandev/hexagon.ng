@@ -1,18 +1,38 @@
 <template>
-  <Hero />
+  <main>
+    <Hero />
+    <About />
+    <Services />
+    <!-- <Projects />
+    <Team />
+    <Contact />
+    <Footer /> -->
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Hero from './components/Hero.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import Hero from "./components/Hero.vue";
+import About from "./components/About.vue";
+import Services from "./components/Services.vue";
+// import Projects from "./components/Projects.vue";
+// import Team from "./components/Team.vue";
+// import Contact from "./components/Contact.vue";
+// import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
     Hero,
-  }
-}
+    About,
+    Services,
+    // Projects,
+    // Team,
+    // Contact,
+    // Footer,
+  },
+};
 </script>
 
 <style lang="scss">
