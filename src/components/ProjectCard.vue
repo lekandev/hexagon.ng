@@ -1,16 +1,16 @@
 <template>
   <div class="projectCard">
-    <img src="{{image}}" alt="{{name}}" />
+    <img v-bind:src="require(`@/assets/${image}`)" v-bind:alt="name" />
     <h2>{{ name }}</h2>
-    <p>{{ desc }}</p>
-    <a href="{{link}}" target="_blank" rel="noopener">View</a>
+    <!-- <p>{{ desc }}</p> -->
+    <a v-bind:href="link" target="_blank" rel="noopener">View</a>
   </div>
 </template>
 <script>
 export default {
   name: "ProjectCard",
   props: {
-    image: Path,
+    image: String,
     name: String,
     desc: String,
     link: String,
@@ -20,4 +20,30 @@ export default {
 
 <style scoped lang="scss">
 @import "./utilities/_variables";
+.projectCard {
+  text-align: center;
+
+  img {
+    width: 500px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  a {
+    padding: 15px;
+    color: #fff !important;
+    background-color: $primary-color;
+    text-decoration: none;
+    border: 2px solid $primary-color;
+    transition: 0.3s ease-in-out;
+  }
+
+  a:hover {
+    background-color: transparent;
+  }
+}
 </style>

@@ -27,16 +27,16 @@
 
 <script>
 export default {
-  name: 'Hero'
+  name: "Hero",
 };
 </script>
 
 <style scoped lang="scss">
 @import "./utilities/_variables";
 
-.nav__container {
-  position: fixed;
-}
+// .nav__container {
+//   position: fixed;
+// }
 
 nav {
   width: 100%;
@@ -62,6 +62,7 @@ nav {
   height: 100vh;
   background: url("../assets/hero_bg.jpg") rgba($color: #000000, $alpha: 0.6);
   background-blend-mode: multiply;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,6 +97,22 @@ nav {
 
 // media queries
 @media screen and (max-width: 640px) {
-    // .hero__name{}
+  nav {
+
+    .nav__items {
+      display: none;
+    }
+  }
+
+  .hero {
+
+    .hero__name {
+      font-size: 3rem;
+    }
+
+    .hero__tagline {
+      font-size: 1.2rem;
+    }
+  }
 }
 </style>
