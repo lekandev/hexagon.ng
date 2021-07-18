@@ -4,6 +4,7 @@
     <About />
     <Services />
     <Projects />
+    <Pricing />
     <Team />
     <Contact />
     <Footer />
@@ -16,6 +17,7 @@ import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Services from "./components/Services.vue";
 import Projects from "./components/Projects.vue";
+import Pricing from "./components/Pricing.vue";
 import Team from "./components/Team.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
@@ -28,6 +30,7 @@ export default {
     About,
     Services,
     Projects,
+    Pricing,
     Team,
     Contact,
     Footer,

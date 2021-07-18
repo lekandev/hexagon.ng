@@ -16,11 +16,18 @@
     </div>
 
     <div class="hero">
-      <h1 class="hero__name">Hexagon.ng</h1>
-      <p class="hero__tagline">
-        We build innovative software that meets business requirements
-      </p>
-      <a href="#" class="hero__link--button">Services we offer</a>
+      <div class="hero__left">
+        <h1 class="hero__name">Hexagon.ng</h1>
+        <h3 class="hero__agency-name">software development</h3>
+        <p class="hero__tagline">
+          We build innovative software that meets business requirements
+        </p>
+        <a href="#" class="hero__link--button">Services we offer</a>
+      </div>
+
+      <div class="hero__right">
+        <img src="../assets/hero_bg.jpg" alt="" />
+      </div>
     </div>
   </div>
 </template>
@@ -60,59 +67,82 @@ nav {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url("../assets/hero_bg.jpg") rgba($color: #000000, $alpha: 0.6);
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    to right,
+    rgb(29, 29, 29),
+    rgb(116, 252, 6)
+  );
+//   // background-blend-mode: multiply;
+//   // background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+//   justify-content: center;
   align-items: center;
-  color: #fff;
+//   color: #fff;
 
-  .hero__name {
-    font-size: 4rem;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    color: $text-color1;
-  }
-
-  .hero__tagline {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
-  }
-
-  .hero__link--button {
-    padding: 20px;
-    color: #fff !important;
-    background-color: $primary-color;
-    text-decoration: none;
-    border: 2px solid $primary-color;
-    transition: 0.3s ease-in-out;
-  }
-
-  .hero__link--button:hover {
-    background-color: transparent;
-  }
-}
-
-// media queries
-@media screen and (max-width: 640px) {
-  nav {
-
-    .nav__items {
-      display: none;
-    }
-  }
-
-  .hero {
+  .hero__left {
+    margin-left: 150px;
+    width: 50%;
+    // display: flex;
+    // flex-direction: column;
+//     justify-content: center;
+//     // align-items: center;
 
     .hero__name {
-      font-size: 3rem;
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: $text-color1;
+    }
+
+    .hero__agency-name {
+      font-size: 4rem;
+      letter-spacing: .8rem;
     }
 
     .hero__tagline {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
+      margin-bottom: 40px;
+    }
+
+    .hero__link--button {
+      padding: 20px;
+      color: #fff !important;
+      background-color: $primary-color;
+      text-decoration: none;
+      border: 2px solid $primary-color;
+      transition: 0.3s ease-in-out;
+    }
+
+    .hero__link--button:hover {
+      background-color: transparent;
+    }
+  }
+
+  .hero__right {
+//     width: 40%;
+
+    img {
+      width: 500px;
     }
   }
 }
+
+// // media queries
+// @media screen and (max-width: 640px) {
+//   nav {
+//     .nav__items {
+//       display: none;
+//     }
+//   }
+
+//   .hero {
+//     .hero__name {
+//       font-size: 3rem;
+//     }
+
+//     .hero__tagline {
+//       font-size: 1.2rem;
+//     }
+//   }
+// }
 </style>
