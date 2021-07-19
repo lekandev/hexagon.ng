@@ -10,11 +10,11 @@
     </div>
     <div class="contact__info">
       <ul>
-        <li>hexagondevs@gmail.com</li>
-        <li>08050510619</li>
-        <li>@hexagon_devs</li>
-        <li>/hexagon_devs</li>
-        <li>@hexagon_devs</li>
+        <li><i class="far fa-envelope"></i>hexagondevs@gmail.com</li>
+        <li><i class="fas fa-phone-alt"></i>08050510619</li>
+        <li><i class="fab fa-twitter"></i>@hexagon_devs</li>
+        <li><i class="fab fa-linkedin-in"></i>/hexagon_devs</li>
+        <li><i class="fab fa-instagram"></i>@hexagon_devs</li>
       </ul>
     </div>
   </section>
@@ -32,19 +32,36 @@ export default {
   justify-content: center;
   align-items: center;
 
-  .contact__form > form {
-    display: flex;
-    flex-direction: column;
+  .contact__form {
+    margin-right: 100px;
 
-    input {
-      background: rgb(116, 252, 6);
-      width: 350px;
-      height: 50px;
-      margin-bottom: 40px;
-      border: none;
-      padding: 15px;
-      font-size: 1.1rem;
-      border-radius: 7px;
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        background: rgb(116, 252, 6);
+        width: 350px;
+        height: 50px;
+        margin-bottom: 40px;
+        border: none;
+        padding: 15px;
+        font-size: 1.1rem;
+        border-radius: 7px;
+      }
+    }
+  }
+
+  .contact__info {
+    ul {
+      li {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+
+        i {
+          margin-right: 15px;
+        }
+      }
     }
   }
 }

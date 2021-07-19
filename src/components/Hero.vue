@@ -26,7 +26,7 @@
       </div>
 
       <div class="hero__right">
-        <img src="../assets/hero_bg.jpg" alt="" />
+        <img src="../assets/hero_svg.svg" alt="" />
       </div>
     </div>
   </div>
@@ -40,6 +40,7 @@ export default {
 
 <style scoped lang="scss">
 @import "./utilities/_variables";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200;300&family=Quicksand:wght@300&display=swap');
 
 // .nav__container {
 //   position: fixed;
@@ -47,13 +48,14 @@ export default {
 
 nav {
   width: 100%;
-  height: 60px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  padding: 5px;
-  border-radius: 30px;
+  padding: 30px;
+  border-radius: 50px;
+  position: fixed;
 
   .nav__items {
     display: flex;
@@ -72,6 +74,7 @@ nav {
     rgb(29, 29, 29),
     rgb(116, 252, 6)
   );
+  color: $text-color2;
 //   // background-blend-mode: multiply;
 //   // background-repeat: no-repeat;
   display: flex;
@@ -92,16 +95,21 @@ nav {
       text-transform: uppercase;
       margin-bottom: 20px;
       color: $text-color1;
+      font-family: 'Nunito Sans', sans-serif;
     }
 
     .hero__agency-name {
       font-size: 4rem;
       letter-spacing: .8rem;
+      font-family: 'Quicksand', sans-serif;
+      text-transform: capitalize;
+      margin-bottom: 20px;
     }
 
     .hero__tagline {
       font-size: 1.4rem;
       margin-bottom: 40px;
+      font-family: 'Nunito Sans', sans-serif;
     }
 
     .hero__link--button {
@@ -111,6 +119,7 @@ nav {
       text-decoration: none;
       border: 2px solid $primary-color;
       transition: 0.3s ease-in-out;
+      font-family: 'Nunito Sans', sans-serif;
     }
 
     .hero__link--button:hover {

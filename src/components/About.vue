@@ -33,6 +33,7 @@ export default {
   .about__container {
     display: flex;
     align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
 
     img {
       width: 500px;
