@@ -72,4 +72,10 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 640px) {
+  .services {
+    margin: 50px;
+  }
+}
 </style>

@@ -46,4 +46,13 @@ export default {
     background-color: transparent;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .projectCard {
+
+    img {
+      width: 350px;
+    }
+  }
+}
 </style>

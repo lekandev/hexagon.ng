@@ -51,13 +51,13 @@ export default {
 
 @media screen and (max-width: 640px) {
   .about {
-    margin: 0;
+    padding: 50px 50px 0px 50px;
 
     .about__container {
       flex-direction: column;
 
       img {
-        width: 500px;
+        width: 350px;
         margin-right: 0;
         margin-bottom: 50px;
       }
