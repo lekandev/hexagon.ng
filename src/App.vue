@@ -1,5 +1,6 @@
 <template>
   <main>
+    <Nav />
     <Hero />
     <About />
     <Services />
@@ -14,6 +15,7 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Nav from "./components/Nav.vue";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Services from "./components/Services.vue";
@@ -28,6 +30,7 @@ export default {
   name: "App",
   components: {
     HelloWorld,
+    Nav,
     Hero,
     About,
     Services,
