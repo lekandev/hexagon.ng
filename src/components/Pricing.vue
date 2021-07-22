@@ -104,7 +104,7 @@ export default {
     margin: 50px;
 
     .pricing__container {
-      grid-row-gap: 20px;
+      grid-row-gap: 30px;
     }
   }
 }

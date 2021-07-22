@@ -1,17 +1,24 @@
 <template>
-  <section class="testimonials"></section>
+  <section class="testimonials">
+      <!-- <Testimonial /> -->
+  </section>
 </template>
 
 <script>
+import Testimonial from "./Testimonial.vue"
+
 export default {
   name: "Testimonials",
+  components: {
+      Testimonial
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .testimonials {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   background-image: linear-gradient(
     to right,
     rgb(29, 29, 29),

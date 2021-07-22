@@ -154,11 +154,11 @@ nav {
       text-align: center;
 
       .hero__name {
-        font-size: 3rem;
+        font-size: 2.9rem;
       }
 
       .hero__agency-name {
-        font-size: 3.5rem;
+        font-size: 3.1rem;
         letter-spacing: 0.6rem;
         text-transform: capitalize;
         margin-bottom: 20px;

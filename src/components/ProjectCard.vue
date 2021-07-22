@@ -44,6 +44,7 @@ export default {
 
   a:hover {
     background-color: transparent;
+    color: $text-color1 !important;
   }
 }
 

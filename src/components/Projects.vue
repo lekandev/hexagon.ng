@@ -53,4 +53,13 @@ export default {
     grid-row-gap: 40px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .projects {
+
+  .projects__container {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+}
+}
 </style>

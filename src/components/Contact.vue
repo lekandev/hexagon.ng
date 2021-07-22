@@ -69,6 +69,19 @@ export default {
 @media screen and (max-width: 640px) {
   .contact {
     flex-direction: column;
+
+    .contact__form {
+      margin-right: 0;
+    }
+
+    .contact__info {
+      ul {
+        li {
+          font-size: 1.5rem;
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
 }
 </style>
