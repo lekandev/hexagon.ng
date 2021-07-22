@@ -6,6 +6,7 @@
     <Projects />
     <Pricing />
     <Team />
+    <Testimonials />
     <Contact />
     <Footer />
   </main>
@@ -19,6 +20,7 @@ import Services from "./components/Services.vue";
 import Projects from "./components/Projects.vue";
 import Pricing from "./components/Pricing.vue";
 import Team from "./components/Team.vue";
+import Testimonials from "./components/Testimonials.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 
@@ -32,6 +34,7 @@ export default {
     Projects,
     Pricing,
     Team,
+    Testimonials,
     Contact,
     Footer,
   },
@@ -43,6 +46,11 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h2, h3 {
+  font-family: 'Quicksand', sans-serif;
 }
 
 #app {

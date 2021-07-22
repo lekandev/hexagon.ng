@@ -40,7 +40,7 @@ export default {
 
 <style scoped lang="scss">
 @import "./utilities/_variables";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200;300&family=Quicksand:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200;300&family=Quicksand:wght@300&display=swap");
 
 // .nav__container {
 //   position: fixed;
@@ -48,7 +48,7 @@ export default {
 
 nav {
   width: 100%;
-  height: 90px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,9 @@ nav {
   padding: 30px;
   border-radius: 50px;
   position: fixed;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+  // .nav__logo {}
   .nav__items {
     display: flex;
 
@@ -75,33 +77,33 @@ nav {
     rgb(116, 252, 6)
   );
   color: $text-color2;
-//   // background-blend-mode: multiply;
-//   // background-repeat: no-repeat;
+  //   // background-blend-mode: multiply;
+  //   // background-repeat: no-repeat;
   display: flex;
-//   justify-content: center;
+  //   justify-content: center;
   align-items: center;
-//   color: #fff;
+  //   color: #fff;
 
   .hero__left {
-    margin-left: 150px;
-    width: 50%;
+    margin-left: 100px;
+    width: 40%;
+    margin-right: 150px;
     // display: flex;
     // flex-direction: column;
-//     justify-content: center;
-//     // align-items: center;
+    //     justify-content: center;
+    //     // align-items: center;
 
     .hero__name {
       font-size: 3.5rem;
       text-transform: uppercase;
       margin-bottom: 20px;
       color: $text-color1;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: "Nunito Sans", sans-serif;
     }
 
     .hero__agency-name {
       font-size: 4rem;
-      letter-spacing: .8rem;
-      font-family: 'Quicksand', sans-serif;
+      letter-spacing: 0.8rem;
       text-transform: capitalize;
       margin-bottom: 20px;
     }
@@ -109,7 +111,7 @@ nav {
     .hero__tagline {
       font-size: 1.4rem;
       margin-bottom: 40px;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: "Nunito Sans", sans-serif;
     }
 
     .hero__link--button {
@@ -119,7 +121,7 @@ nav {
       text-decoration: none;
       border: 2px solid $primary-color;
       transition: 0.3s ease-in-out;
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: "Nunito Sans", sans-serif;
     }
 
     .hero__link--button:hover {
@@ -128,30 +130,48 @@ nav {
   }
 
   .hero__right {
-//     width: 40%;
+    //     width: 40%;
 
     img {
-      width: 500px;
+      width: 450px;
     }
   }
 }
 
 // // media queries
-// @media screen and (max-width: 640px) {
-//   nav {
-//     .nav__items {
-//       display: none;
-//     }
-//   }
+@media screen and (max-width: 640px) {
+  nav {
+    .nav__items {
+      display: none;
+    }
+  }
 
-//   .hero {
-//     .hero__name {
-//       font-size: 3rem;
-//     }
+  .hero {
+    .hero__left {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
 
-//     .hero__tagline {
-//       font-size: 1.2rem;
-//     }
-//   }
-// }
+      .hero__name {
+        font-size: 3rem;
+      }
+
+      .hero__agency-name {
+        font-size: 3.5rem;
+        letter-spacing: 0.6rem;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+      }
+    }
+
+    .hero__right {
+      display: none;
+    }
+
+    //     .hero__tagline {
+    //       font-size: 1.2rem;
+    //     }
+  }
+}
 </style>

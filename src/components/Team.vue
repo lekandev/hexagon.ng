@@ -2,7 +2,7 @@
   <section class="team">
     <div class="team__member">
       <img src="../assets/team__member4.png" alt="">
-      <h2>Gilbert Excellence</h2>
+      <h3>Gilbert Excellence</h3>
       <p>Android App developer</p>
       <small class="team__member--stack">
         Java · C++ · C#
@@ -10,7 +10,7 @@
     </div>
     <div class="team__member">
       <img src="../assets/team__member2.png" alt="">
-      <h2>Gbolahan Okuneye</h2>
+      <h3>Gbolahan Okuneye</h3>
       <p>Frontend developer</p>
       <small class="team__member--stack">
         HTML · CSS · JavaScript
@@ -18,7 +18,7 @@
     </div>
     <div class="team__member">
       <img src="../assets/team__member4.png" alt="">
-      <h2>Muhammad Dass</h2>
+      <h3>Muhammad Dass</h3>
       <p>Frontend developer/Digital Marketer</p>
       <small class="team__member--stack">
         HTML · CSS · JavaScript · SEO
@@ -26,7 +26,7 @@
     </div>
     <div class="team__member">
       <img src="../assets/team__member2.png" alt="">
-      <h2>Gbadebo Emmanuel Oluwarimi</h2>
+      <h3>Gbadebo Emmanuel Oluwarimi</h3>
       <p>Fullstack developer</p>
       <small class="team__member--stack">
         HTML · CSS · JavaScript · React · Python · Django
@@ -34,7 +34,7 @@
     </div>
     <div class="team__member">
       <img src="../assets/team__member4.png" alt="">
-      <h2>Igbokwe Gabriel Ifechukwu</h2>
+      <h3>Igbokwe Gabriel Ifechukwu</h3>
       <p>Frontend developer</p>
       <small class="team__member--stack">
         HTML · CSS · JavaScript · Vue
@@ -42,7 +42,7 @@
     </div>
     <div class="team__member">
       <img src="../assets/team__member2.png" alt="">
-      <h2>Mohammed Kabir Hussaini</h2>
+      <h3>Mohammed Kabir Hussaini</h3>
       <p>Fullstack developer</p>
       <small class="team__member--stack">
         HTML · CSS · JavaScript · React · Vue · Node · React Native
@@ -60,19 +60,29 @@ export default {
 @import "./utilities/_variables";
 .team {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;
-  // align-items: center;
+  place-items: center;
   text-align: center;
   margin-bottom: 100px;
 
   .team__member {
+    width: 300px;
 
     img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      margin-bottom: 7px;
+    }
+
+    p {
+      margin-bottom: 7px;
     }
   }
 }

@@ -1,15 +1,28 @@
 <template>
   <section class="projects">
-    <ProjectCard
-      image="hero_bg.jpg"
-      name="Creative Agency"
-      link="https://github.com/lekandev/Creative-agency-website"
-    />
-    <ProjectCard
-      image="hero_bg.jpg"
-      name="Creative Agency"
-      link="https://github.com/lekandev/Creative-agency-website"
-    />
+    <h2>Projects</h2>
+    <div class="projects__container">
+      <ProjectCard
+        image="creative-agency.png"
+        name="Creative Agency"
+        link="https://github.com/lekandev/Creative-agency-website"
+      />
+      <ProjectCard
+        image="ecommerce.png"
+        name="Creative Agency"
+        link="https://github.com/lekandev/Creative-agency-website"
+      />
+      <ProjectCard
+        image="dashadmin.png"
+        name="Creative Agency"
+        link="https://github.com/lekandev/Creative-agency-website"
+      />
+      <ProjectCard
+        image="creative-agency.png"
+        name="Creative Agency"
+        link="https://github.com/lekandev/Creative-agency-website"
+      />
+    </div>
   </section>
 </template>
 <script>
@@ -25,9 +38,19 @@ export default {
 
 <style scoped lang="scss">
 @import "./utilities/_variables";
+
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin-bottom: 100px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .projects__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+    grid-row-gap: 40px;
+  }
 }
 </style>
