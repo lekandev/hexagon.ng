@@ -10,6 +10,8 @@
       <li class="nav__item"><a href="#">Projects</a></li>
       <li class="nav__item"><a href="#">The Team</a></li>
     </ul>
+
+    <div class="res"><i class="fa fa-bars"></i></div>
   </nav>
 </template>
 
@@ -43,12 +45,20 @@ nav {
       margin-right: 10px;
     }
   }
+
+  .res {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
   nav {
     .nav__items {
       display: none;
+    }
+
+    .res {
+      display: block;
     }
   }
 }
