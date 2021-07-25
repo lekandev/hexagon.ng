@@ -14,7 +14,7 @@
           A simple website to give your business an online presence with about 2
           - 4 pages.
         </p>
-        <em class="price">&#8358;55,000</em>
+        <b class="price">&#8358;55,000</b>
         <p>Revision Included</p>
       </div>
       <div class="pricing__price">
@@ -23,7 +23,7 @@
           A simple website to give your business an online presence with about 2
           - 4 pages.
         </p>
-        <em class="price">&#8358;55,000</em>
+        <b class="price">&#8358;97,000</b>
         <p>Revision Included</p>
       </div>
       <div class="pricing__price">
@@ -32,7 +32,7 @@
           A simple website to give your business an online presence with about 2
           - 4 pages.
         </p>
-        <em class="price">&#8358;55,000</em>
+        <b class="price">&#8358;135,000</b>
         <p>Revision Included</p>
       </div>
     </div>

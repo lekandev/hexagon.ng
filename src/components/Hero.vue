@@ -4,7 +4,8 @@
         <h1 class="hero__name">Hexagon.ng</h1>
         <h3 class="hero__agency-name">software development</h3>
         <p class="hero__tagline">
-          We build innovative software that meets business requirements
+          We build innovative software solutions that not only meets
+          business requirements but scale as your business grows
         </p>
         <a href="#" class="hero__link--button">Services we offer</a>
       </div>
@@ -34,8 +35,8 @@ export default {
     rgb(116, 252, 6)
   );
   color: $text-color2;
-  //   // background-blend-mode: multiply;
-  //   // background-repeat: no-repeat;
+    // background-blend-mode: multiply;
+    // background-repeat: no-repeat;
   display: flex;
   //   justify-content: center;
   align-items: center;
@@ -109,14 +110,15 @@ export default {
       margin-left: 0;
       margin-right: 0;
       text-align: center;
+      padding: 10px;
 
       .hero__name {
-        font-size: 2.9rem;
+        font-size: 2.7rem;
       }
 
       .hero__agency-name {
-        font-size: 3.1rem;
-        letter-spacing: 0.6rem;
+        font-size: 2.8rem;
+        letter-spacing: 0.5rem;
         text-transform: capitalize;
         margin-bottom: 20px;
       }
