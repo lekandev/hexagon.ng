@@ -1,7 +1,7 @@
 <template>
   <section class="team">
     <div class="team__member">
-      <img src="../assets/team__member4.png" alt="">
+      <img src="../assets/team__member4.png" alt="" />
       <h3>Gilbert Excellence</h3>
       <p>Android App developer</p>
       <small class="team__member--stack">
@@ -9,7 +9,7 @@
       </small>
     </div>
     <div class="team__member">
-      <img src="../assets/team__member2.png" alt="">
+      <img src="../assets/team__member2.png" alt="" />
       <h3>Gbolahan Okuneye</h3>
       <p>Frontend developer</p>
       <small class="team__member--stack">
@@ -17,7 +17,7 @@
       </small>
     </div>
     <div class="team__member">
-      <img src="../assets/team__member4.png" alt="">
+      <img src="../assets/team__member4.png" alt="" />
       <h3>Muhammad Dass</h3>
       <p>Frontend developer/Digital Marketer</p>
       <small class="team__member--stack">
@@ -25,7 +25,7 @@
       </small>
     </div>
     <div class="team__member">
-      <img src="../assets/team__member2.png" alt="">
+      <img src="../assets/team__member2.png" alt="" />
       <h3>Gbadebo Emmanuel Oluwarimi</h3>
       <p>Fullstack developer</p>
       <small class="team__member--stack">
@@ -33,7 +33,7 @@
       </small>
     </div>
     <div class="team__member">
-      <img src="../assets/team__member4.png" alt="">
+      <img src="../assets/team__member4.png" alt="" />
       <h3>Igbokwe Gabriel Ifechukwu</h3>
       <p>Frontend developer</p>
       <small class="team__member--stack">
@@ -41,7 +41,7 @@
       </small>
     </div>
     <div class="team__member">
-      <img src="../assets/team__member2.png" alt="">
+      <img src="../assets/team__member2.png" alt="" />
       <h3>Mohammed Kabir Hussaini</h3>
       <p>Fullstack developer</p>
       <small class="team__member--stack">
@@ -52,7 +52,7 @@
 </template>
 <script>
 export default {
-  name: 'Team',
+  name: "Team",
 };
 </script>
 
@@ -83,6 +83,16 @@ export default {
 
     p {
       margin-bottom: 7px;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .team {
+    gap: 20px;
+    
+    .team__member {
+      width: 270px;
     }
   }
 }
