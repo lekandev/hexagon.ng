@@ -32,6 +32,8 @@ export default {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
 
-    .process:not
+    // .process:not(:last-child) {
+
+    // }
 }
 </style>
