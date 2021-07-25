@@ -11,7 +11,7 @@
       <li class="nav__item"><a href="#">The Team</a></li>
     </ul>
 
-    <div class="res"><i class="fa fa-bars"></i></div>
+    <h2 class="res"><i class="fa fa-bars"></i></h2>
   </nav>
 </template>
 
@@ -53,6 +53,7 @@ nav {
 
 @media screen and (max-width: 640px) {
   nav {
+    
     .nav__items {
       display: none;
     }
