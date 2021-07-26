@@ -75,12 +75,14 @@ export default {
 
 @media screen and (max-width: 640px) {
   .services {
-    margin: 50px;
+    margin: 40px;
 
     .services__container {
 
-    .service {
-      padding: 10px;}}
+      .service {
+        padding: 10px;
+      }
+    }
   }
 }
 </style>

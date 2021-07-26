@@ -89,7 +89,7 @@ export default {
 
 @media screen and (max-width: 640px) {
   .team {
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
     .team__member {
       width: 270px;

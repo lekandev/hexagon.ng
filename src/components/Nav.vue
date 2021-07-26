@@ -11,13 +11,22 @@
       <li class="nav__item"><a href="#">The Team</a></li>
     </ul>
 
-    <h2 class="res"><i class="fa fa-bars"></i></h2>
+    <h2 id="res" class="res"><i @click="toggleNav()" ref="res" class="fa fa-bars"></i></h2>
   </nav>
 </template>
 
 <script>
 export default {
-    name: 'Nav'
+    name: 'Nav',
+    methods: {
+      toggleNav() {
+        // const sideNav = document.qerySelector(".fa-bars");
+
+        // sideNav.classList.toggle("fa-times")
+
+        this.$refs.res.classList.toggle("fa-times")
+      }
+    }
 }
 </script>
 
@@ -53,6 +62,7 @@ nav {
 
 @media screen and (max-width: 640px) {
   nav {
+    padding: 20px;
     
     .nav__items {
       display: none;
