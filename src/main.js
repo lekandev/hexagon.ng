@@ -1,9 +1,8 @@
 import { createApp } from 'vue'
-import Vue from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
-// import VueParticles from 'vue-particles'
 
-createApp(App).mount('#app')
+import Particles from "particles.vue3";
+import VueParticlesBg from "particles-bg-vue";
 
-// Vue.use(VueParticles)
+createApp(App).use(Particles, VueParticlesBg).mount('#app')

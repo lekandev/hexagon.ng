@@ -1,7 +1,7 @@
 <template>
     <div class="hero">
       <div class="hero__left">
-        <h1 class="hero__name">Hexagon.ng</h1>
+        <h1 class="hero__name">Hexagon</h1>
         <h3 class="hero__agency-name">software development</h3>
         <p class="hero__tagline">
           We build innovative software solutions that not only meets
@@ -54,7 +54,7 @@ export default {
     .hero__name {
       font-size: 3.5rem;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       color: $text-color1;
       font-family: "Nunito Sans", sans-serif;
     }

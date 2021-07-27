@@ -37,6 +37,8 @@ export default {
     img {
       width: 500px;
       margin-right: 50px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
     }
 
     .about__info {
