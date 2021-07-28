@@ -25,10 +25,10 @@ export default {
 @import "./utilities/_variables";
 
 .testimonial {
-    width: 500px;
-    height: 350px;
+    width: 450px;
+    height: 300px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: $secondary-color;
 
     .testimonial__content {
