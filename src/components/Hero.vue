@@ -1,6 +1,6 @@
 <template>
     <div class="hero">
-      <div class="hero__left">
+      <div class="hero__left" data-aos="fade-right">
         <h1 class="hero__name">Hexagon</h1>
         <h3 class="hero__agency-name">software development</h3>
         <p class="hero__tagline">
@@ -10,7 +10,7 @@
         <a href="#" class="hero__link--button">Services we offer</a>
       </div>
 
-      <div class="hero__right">
+      <div class="hero__right" data-aos="fade-left">
         <img src="../assets/hero_svg.svg" alt="" />
       </div>
     </div>
