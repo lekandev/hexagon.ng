@@ -27,6 +27,7 @@ export default {
     height: 350px;
     border-radius: 20px;
     padding: 10px;
+    background-color: $secondary-color;
 
     .testimonial__content {
         margin-bottom: 10px;
@@ -36,8 +37,8 @@ export default {
         display: flex;
 
         img {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             margin-right: 30px;
         }

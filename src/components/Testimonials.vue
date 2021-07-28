@@ -25,5 +25,8 @@ export default {
     rgb(116, 252, 6)
   );
   margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

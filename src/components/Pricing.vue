@@ -29,8 +29,8 @@
       <div class="pricing__price">
         <h3>High Website</h3>
         <p class="price__desc">
-          A high website to give your business an online presence with with major
-          functionalities e.g An Ecommerce website.
+          A highly scalable website with major functionalities e.g An Ecommerce
+          website or a blog.
         </p>
         <b class="price">&#8358;135,000</b>
         <p>Revision Included</p>
