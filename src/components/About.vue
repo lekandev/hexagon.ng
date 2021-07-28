@@ -1,6 +1,6 @@
 <template>
   <section class="about">
-    <div class="about__container">
+    <div class="about__container" data-aos="fade-down">
       <img src="../assets/hero_bg.jpg" alt="about-pic" />
       <div class="about__info">
         <h2>About Us</h2>
