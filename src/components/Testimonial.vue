@@ -22,6 +22,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./utilities/_variables";
+
 .testimonial {
     width: 500px;
     height: 350px;
