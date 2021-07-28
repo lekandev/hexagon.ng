@@ -40,14 +40,13 @@ export default {
       flex-direction: column;
 
       input {
-        background: rgb(116, 252, 6);
+        background: transparent;
         width: 350px;
         height: 50px;
         margin-bottom: 40px;
-        border: none;
+        border: 1px solid rgb(116, 252, 6);
         padding: 15px;
         font-size: 1.1rem;
-        border-radius: 7px;
       }
     }
   }
