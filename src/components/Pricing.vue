@@ -18,19 +18,19 @@
         <p>Revision Included</p>
       </div>
       <div class="pricing__price">
-        <h3>Simple Website</h3>
+        <h3>Multi Website</h3>
         <p class="price__desc">
-          A simple website to give your business an online presence with about 2
-          - 4 pages.
+          A multi page website to give your business an online presence with about 4
+          - 10 pages.
         </p>
         <b class="price">&#8358;97,000</b>
         <p>Revision Included</p>
       </div>
       <div class="pricing__price">
-        <h3>Simple Website</h3>
+        <h3>High Website</h3>
         <p class="price__desc">
-          A simple website to give your business an online presence with about 2
-          - 4 pages.
+          A high website to give your business an online presence with with major
+          functionalities e.g An Ecommerce website.
         </p>
         <b class="price">&#8358;135,000</b>
         <p>Revision Included</p>

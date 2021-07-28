@@ -28,6 +28,19 @@ export default {
     border-radius: 20px;
     padding: 10px;
 
-    .testimonial__author {}
+    .testimonial__content {
+        margin-bottom: 10px;
+    }
+
+    .testimonial__author {
+        display: flex;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+    }
 }
 </style>

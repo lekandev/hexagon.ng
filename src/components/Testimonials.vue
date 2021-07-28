@@ -1,6 +1,6 @@
 <template>
   <section class="testimonials">
-      <!-- <Testimonial /> -->
+      <Testimonial content="Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti" image="team__member2.png" author="Lekandev" />
   </section>
 </template>
 

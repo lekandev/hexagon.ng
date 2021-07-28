@@ -5,17 +5,17 @@
       <ProjectCard
         image="creative-agency.png"
         name="Creative Agency"
-        link="https://github.com/lekandev/Creative-agency-website"
+        link="https://creative-agency-ten.vercel.app"
       />
       <ProjectCard
         image="ecommerce.png"
-        name="Creative Agency"
-        link="https://github.com/lekandev/Creative-agency-website"
+        name="Ecommerce Template"
+        link="https://jscommerce.vercel.app"
       />
       <ProjectCard
         image="dashadmin.png"
-        name="Creative Agency"
-        link="https://github.com/lekandev/Creative-agency-website"
+        name="Admin Dashboard"
+        link="https://admindash.vercel.app"
       />
       <ProjectCard
         image="creative-agency.png"
