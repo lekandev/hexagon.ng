@@ -32,5 +32,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 </style>

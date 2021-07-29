@@ -8,7 +8,7 @@
       base pricing for some of our services although it really depends on you.
     </p>
     <div class="pricing__container">
-      <div class="pricing__price">
+      <div class="pricing__price" data-aos="fade-down">
         <h3>Simple Website</h3>
         <p class="price__desc">
           A simple website to give your business an online presence with about 2
@@ -17,7 +17,7 @@
         <b class="price">&#8358;55,000</b>
         <p>Revision Included</p>
       </div>
-      <div class="pricing__price">
+      <div class="pricing__price" data-aos="fade-down">
         <h3>Multi Website</h3>
         <p class="price__desc">
           A multi page website to give your business an online presence with about 4
@@ -26,7 +26,7 @@
         <b class="price">&#8358;97,000</b>
         <p>Revision Included</p>
       </div>
-      <div class="pricing__price">
+      <div class="pricing__price" data-aos="fade-down">
         <h3>High Website</h3>
         <p class="price__desc">
           A highly scalable website with major functionalities e.g An Ecommerce

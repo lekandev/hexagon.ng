@@ -30,6 +30,7 @@ export default {
     border-radius: 20px;
     padding: 20px;
     background-color: $secondary-color;
+    margin-right: 40px;
 
     .testimonial__content {
         margin-bottom: 10px;

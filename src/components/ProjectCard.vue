@@ -1,5 +1,5 @@
 <template>
-  <div class="projectCard">
+  <div class="projectCard" data-aos="fade-down">
     <img v-bind:src="require(`@/assets/${image}`)" v-bind:alt="name" />
     <h2>{{ name }}</h2>
     <!-- <p>{{ desc }}</p> -->

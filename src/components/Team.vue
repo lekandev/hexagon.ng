@@ -1,6 +1,6 @@
 <template>
   <section class="team">
-    <div class="team__member">
+    <div class="team__member" data-aos="zoom-in">
       <img src="../assets/team__member4.png" alt="" />
       <h3>Gilbert Excellence</h3>
       <p>Android App developer</p>
@@ -8,7 +8,7 @@
         Java · C++ · C#
       </small>
     </div>
-    <div class="team__member">
+    <div class="team__member" data-aos="zoom-in">
       <img src="../assets/team__member2.png" alt="" />
       <h3>Gbolahan Okuneye</h3>
       <p>Frontend developer</p>
@@ -16,7 +16,7 @@
         HTML · CSS · JavaScript
       </small>
     </div>
-    <div class="team__member">
+    <div class="team__member" data-aos="zoom-in">
       <img src="../assets/team__member4.png" alt="" />
       <h3>Muhammad Dass</h3>
       <p>Frontend developer/Digital Marketer</p>
@@ -24,7 +24,7 @@
         HTML · CSS · JavaScript · SEO
       </small>
     </div>
-    <div class="team__member">
+    <div class="team__member" data-aos="zoom-in">
       <img src="../assets/team__member2.png" alt="" />
       <h3>Gbadebo Emmanuel Oluwarimi</h3>
       <p>Fullstack developer</p>
@@ -32,7 +32,7 @@
         HTML · CSS · JavaScript · React · Python · Django
       </small>
     </div>
-    <div class="team__member">
+    <div class="team__member" data-aos="zoom-in">
       <img src="../assets/team__member4.png" alt="" />
       <h3>Igbokwe Gabriel Ifechukwu</h3>
       <p>Frontend developer</p>
@@ -40,7 +40,7 @@
         HTML · CSS · JavaScript · Vue
       </small>
     </div>
-    <div class="team__member">
+    <div class="team__member" data-aos="zoom-in">
       <img src="../assets/team__member2.png" alt="" />
       <h3>Mohammed Kabir Hussaini</h3>
       <p>Fullstack developer</p>

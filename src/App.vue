@@ -5,6 +5,7 @@
     <About />
     <Services />
     <Projects />
+    <DevProcess/>
     <Pricing />
     <Team />
     <Testimonials />
@@ -20,6 +21,7 @@ import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Services from "./components/Services.vue";
 import Projects from "./components/Projects.vue";
+import DevProcess from "./components/DevProcess.vue";
 import Pricing from "./components/Pricing.vue";
 import Team from "./components/Team.vue";
 import Testimonials from "./components/Testimonials.vue";
@@ -35,6 +37,7 @@ export default {
     About,
     Services,
     Projects,
+    DevProcess,
     Pricing,
     Team,
     Testimonials,
