@@ -31,6 +31,7 @@ export default {
 .devProcesses {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    place-items: center;
 
      .process:not(:last-child) {
        margin-right: 40px;
@@ -41,7 +42,7 @@ export default {
         height: 250px;
         padding: 10px;
         border-radius: 50%;
-        background-color: rgba(116, 252, 6, 0.7);
+        background-color: rgba(116, 252, 6, 0.45);
 
         img {
           width: 130px;
