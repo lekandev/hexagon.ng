@@ -1,7 +1,7 @@
 <template>
   <section class="team">
     <div class="team__member" data-aos="zoom-in">
-      <img src="../assets/team__member4.png" alt="" />
+      <img src="../assets/excellence.jpg" alt="" />
       <h3>Gilbert Excellence</h3>
       <p>Android App developer</p>
       <small class="team__member--stack">
@@ -9,7 +9,7 @@
       </small>
     </div>
     <div class="team__member" data-aos="zoom-in">
-      <img src="../assets/team__member2.png" alt="" />
+      <img src="../assets/gbolahan.jpg" alt="" />
       <h3>Gbolahan Okuneye</h3>
       <p>Frontend developer</p>
       <small class="team__member--stack">
@@ -17,7 +17,7 @@
       </small>
     </div>
     <div class="team__member" data-aos="zoom-in">
-      <img src="../assets/team__member4.png" alt="" />
+      <img src="../assets/ifechukwu.jpg" alt="" />
       <h3>Muhammad Dass</h3>
       <p>Frontend developer/Digital Marketer</p>
       <small class="team__member--stack">
@@ -41,7 +41,7 @@
       </small>
     </div>
     <div class="team__member" data-aos="zoom-in">
-      <img src="../assets/team__member2.png" alt="" />
+      <img src="../assets/kabir.jpg" alt="" />
       <h3>Mohammed Kabir Hussaini</h3>
       <p>Fullstack developer</p>
       <small class="team__member--stack">

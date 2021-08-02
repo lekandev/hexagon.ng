@@ -1,21 +1,21 @@
 <template>
   <section class="testimonials">
-      <Testimonial content="Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti" image="team__member2.png" author="Lekandev" />
+      <!-- <Testimonial content="Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti" image="team__member2.png" author="Lekandev" />
 
       <Testimonial content="Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti" image="team__member2.png" author="Lekandev" />
 
-      <Testimonial content="Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti" image="team__member2.png" author="Lekandev" />
+      <Testimonial content="Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga deepwater stingray. Spaghetti" image="team__member2.png" author="Lekandev" /> -->
   </section>
 </template>
 
 <script>
-import Testimonial from "./Testimonial.vue"
+// import Testimonial from "./Testimonial.vue"
 
 export default {
   name: "Testimonials",
-  components: {
-      Testimonial
-  }
+  // components: {
+  //     Testimonial
+  // }
 };
 </script>
 

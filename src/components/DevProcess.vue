@@ -37,14 +37,20 @@ export default {
      }
   
      .process {
-        padding: 30px;
+        width: 250px;
+        height: 250px;
+        padding: 10px;
         border-radius: 50%;
         background-color: rgba(116, 252, 6, 0.7);
 
-       img {
-         width: 130px;
-         height: 130px;
-       }
+        img {
+          width: 130px;
+          height: 130px;
+        }
+
+        b {
+          display: block;
+        }
      }
 }
 </style>
