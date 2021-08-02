@@ -32,10 +32,12 @@ export default {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     place-items: center;
+    text-align: center;
+    gap: 40px;
 
-     .process:not(:last-child) {
-       margin-right: 40px;
-     }
+    //  .process:not(:last-child) {
+    //    margin-right: 40px;
+    //  }
   
      .process {
         width: 250px;
