@@ -40,11 +40,13 @@ export default {
     //  }
   
      .process {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         padding: 10px;
         border-radius: 50%;
         background-color: rgba(116, 252, 6, 0.45);
+        display: grid;
+        place-content: center;
 
         img {
           width: 130px;
