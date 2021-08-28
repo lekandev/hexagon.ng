@@ -33,15 +33,16 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     place-items: center;
     text-align: center;
-    gap: 40px;
+    gap: 30px;
+    margin: 100px;
 
     //  .process:not(:last-child) {
     //    margin-right: 40px;
     //  }
   
      .process {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         padding: 10px;
         border-radius: 50%;
         background-color: rgba(116, 252, 6, 0.45);
@@ -49,8 +50,8 @@ export default {
         place-content: center;
 
         img {
-          width: 130px;
-          height: 130px;
+          width: 120px;
+          height: 120px;
         }
 
         b {
