@@ -35,7 +35,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200;300&family=Quicksand:wght@300&display=swap");
 
 nav {
-  width: 90%;
+  width: 96%;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -45,7 +45,7 @@ nav {
   border-radius: 50px;
   position: fixed;
   top: 10px;
-  left: 5%;
+  left: 2%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   z-index: 2;
 
