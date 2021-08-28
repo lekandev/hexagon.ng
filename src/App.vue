@@ -8,7 +8,7 @@
     <DevProcess/>
     <Pricing />
     <Team />
-    <Testimonials />
+    <!-- <Testimonials /> -->
     <Contact />
     <Footer />
   </main>
