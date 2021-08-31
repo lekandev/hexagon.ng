@@ -11,8 +11,12 @@
       </div>
 
       <div class="hero__right" data-aos="fade-left">
-        <img src="../assets/hero_svg.svg" alt="" />
+        <img src="../assets/H.png" alt="" />
       </div>
+
+      <!-- <div class="hex hexagon1"><h2>H</h2></div>
+      <div class="hex hexagon2"></div>
+      <div class="hex hexagon3"></div> -->
     </div>
 </template>
 
@@ -45,7 +49,7 @@ export default {
   .hero__left {
     margin-left: 100px;
     width: 40%;
-    margin-right: 150px;
+    margin-right: 30px;
     // display: flex;
     // flex-direction: column;
     //     justify-content: center;
@@ -91,10 +95,42 @@ export default {
     //     width: 40%;
 
     img {
-      width: 450px;
+      width: 650px;
     }
   }
 }
+
+// .hex {
+//   position: absolute;
+//   background-color: #ffffff;
+//   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+//   box-shadow: -33px 28px 5px 0px rgba(0,0,0,0.75);
+// }
+
+// .hexagon1 {
+//   width: 350px;
+//   height: 310px;
+//   top: 150px;
+//   left: 67%;
+//   color: #111;
+//   h2 {
+//     position: absolute;
+//   }
+// }
+
+// .hexagon2 {
+//   width: 200px;
+//   height: 170px;
+//   top: 400px;
+//   left: 58%;
+// }
+
+// .hexagon3 {
+//   width: 90px;
+//   height: 80px;
+//   top: 480px;
+//   left: 73%;
+// }
 
 // media queries
 @media screen and (max-width: 640px) {
