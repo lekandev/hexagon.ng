@@ -14,7 +14,7 @@
           A simple website to give your business an online presence with about 2
           - 4 pages.
         </p>
-        <b class="price">&#8358;55,000</b>
+        <b class="price">&#8358;94,000</b>
         <p>Revision Included</p>
       </div>
       <div class="pricing__price" data-aos="fade-down">
@@ -23,7 +23,7 @@
           A multi page website to give your business an online presence with about 4
           - 10 pages.
         </p>
-        <b class="price">&#8358;97,000</b>
+        <b class="price">&#8358;175,000</b>
         <p>Revision Included</p>
       </div>
       <div class="pricing__price" data-aos="fade-down">
@@ -32,7 +32,7 @@
           A highly scalable website with major functionalities e.g An Ecommerce
           website or a blog.
         </p>
-        <b class="price">&#8358;135,000</b>
+        <b class="price">&#8358;250,000</b>
         <p>Revision Included</p>
       </div>
     </div>
@@ -104,7 +104,7 @@ export default {
     margin: 50px;
 
     .pricing__container {
-      grid-row-gap: 30px;
+      grid-row-gap: 50px;
     }
   }
 }

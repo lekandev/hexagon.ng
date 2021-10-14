@@ -1,21 +1,13 @@
 <template>
   <section class="contact">
     <div class="contact__form">
+      <h2 class="contact__title">Contact Us</h2>
       <form action="" method="POST">
         <input type="text" placeholder="John Doe" />
         <input type="text" placeholder="johndoe@gmail.com" />
         <input type="text" placeholder="message..." />
         <input type="submit" value="Send" />
       </form>
-    </div>
-    <div class="contact__info">
-      <ul>
-        <li><i class="far fa-envelope"></i>hexagondevs@gmail.com</li>
-        <li><i class="fas fa-phone-alt"></i>08050510619</li>
-        <li><i class="fab fa-twitter"></i>@hexagon_devs</li>
-        <li><i class="fab fa-linkedin-in"></i>/hexagon_devs</li>
-        <li><i class="fab fa-instagram"></i>@hexagon_devs</li>
-      </ul>
     </div>
   </section>
 </template>
@@ -31,9 +23,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 
   .contact__form {
-    margin-right: 100px;
+    padding: 45px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .contact__title {
+      text-align: center;
+      margin-bottom : 20px;
+    }
 
     form {
       display: flex;
@@ -41,25 +41,23 @@ export default {
 
       input {
         background: transparent;
-        width: 350px;
+        width: 300px;
         height: 50px;
-        margin-bottom: 40px;
         border: 1px solid rgb(116, 252, 6);
         padding: 15px;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        outline: none;
       }
-    }
-  }
 
-  .contact__info {
-    ul {
-      li {
-        font-size: 1.7rem;
-        margin-bottom: 20px;
+      input:not(:last-child) {
+        margin-bottom: 40px;
+      }
 
-        i {
-          margin-right: 15px;
-        }
+      input:last-child {
+        background: rgb(116, 252, 6);
+        color: $text-color2;
+        cursor: pointer;
       }
     }
   }

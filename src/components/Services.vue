@@ -54,11 +54,14 @@ export default {
   .services__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 50px;
     // align-items: center;
 
     .service {
       text-align: center;
       padding: 20px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
 
       .service__icon {
         font-size: 2.2rem;
@@ -80,7 +83,7 @@ export default {
     .services__container {
 
       .service {
-        padding: 10px;
+        // padding: 10px;
       }
     }
   }
