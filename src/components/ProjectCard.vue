@@ -34,7 +34,7 @@ export default {
   }
 
   a {
-    padding: 15px;
+    padding: 8px 25px;
     color: #fff !important;
     background-color: $primary-color;
     text-decoration: none;
