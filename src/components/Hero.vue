@@ -149,12 +149,12 @@ export default {
       padding: 10px;
 
       .hero__name {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
       }
 
       .hero__agency-name {
-        font-size: 2.7rem;
-        letter-spacing: 0.5rem;
+        font-size: 2.6rem;
+        letter-spacing: 0.4rem;
         text-transform: capitalize;
         margin-bottom: 20px;
       }
