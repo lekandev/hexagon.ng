@@ -1,7 +1,7 @@
 <template>
   <section class="pricing">
     <h2>Pricing</h2>
-    <p>
+    <p class="pricing__details">
       Our mode of pricing usually depends on the type of website, mobile app or
       service, budget or features required by you or your business as we take
       into deep consideration the welfare of our customers but below are the
@@ -20,8 +20,8 @@
       <div class="pricing__price" data-aos="fade-down">
         <h3>Multi Website</h3>
         <p class="price__desc">
-          A multi page website to give your business an online presence with about 4
-          - 10 pages.
+          A multi page website to give your business an online presence with
+          about 4 - 10 pages.
         </p>
         <b class="price">&#8358;175,000</b>
         <p>Revision Included</p>
@@ -53,12 +53,14 @@ export default {
   margin: 100px;
 
   h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: $text-color1;
   }
 
-  p {
-    margin-bottom: 50px;
+  .pricing__details {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
   }
 
   .pricing__container {
@@ -102,6 +104,11 @@ export default {
 @media screen and (max-width: 640px) {
   .pricing {
     margin: 50px;
+
+    .pricing__details {
+      margin-left: 7px;
+      margin-right: 7px;
+    }
 
     .pricing__container {
       grid-row-gap: 50px;

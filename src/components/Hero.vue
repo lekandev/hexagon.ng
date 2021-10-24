@@ -11,12 +11,8 @@
       </div>
 
       <div class="hero__right" data-aos="fade-left">
-        <img src="../assets/H.png" alt="" />
+        <img src="../assets/hero_svg.svg" alt="" />
       </div>
-
-      <!-- <div class="hex hexagon1"><h2>H</h2></div>
-      <div class="hex hexagon2"></div>
-      <div class="hex hexagon3"></div> -->
     </div>
 </template>
 
@@ -32,52 +28,42 @@ export default {
 
 .hero {
   width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(
-    to right,
-    rgb(29, 29, 29),
-    rgb(116, 252, 6)
-  );
+  height: 100vh;;
+  background-color: $secondary-color;
   color: $text-color2;
-    // background-blend-mode: multiply;
-    // background-repeat: no-repeat;
   display: flex;
   //   justify-content: center;
   align-items: center;
-  //   color: #fff;
+  color: $text-color3;
 
   .hero__left {
     margin-left: 100px;
     width: 40%;
-    margin-right: 30px;
-    // display: flex;
-    // flex-direction: column;
-    //     justify-content: center;
-    //     // align-items: center;
+    margin-right: 100px; // Little p here
 
     .hero__name {
-      font-size: 3.5rem;
+      font-size: 3.3rem;
       text-transform: uppercase;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       color: $text-color1;
       font-family: "Nunito Sans", sans-serif;
     }
 
     .hero__agency-name {
-      font-size: 4rem;
-      letter-spacing: 0.8rem;
+      font-size: 3.6rem;
+      letter-spacing: 0.7rem;
       text-transform: capitalize;
       margin-bottom: 20px;
     }
 
     .hero__tagline {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin-bottom: 40px;
       font-family: "Nunito Sans", sans-serif;
     }
 
     .hero__link--button {
-      padding: 20px;
+      padding: 15px;
       color: #fff !important;
       background-color: $primary-color;
       text-decoration: none;
@@ -88,49 +74,19 @@ export default {
 
     .hero__link--button:hover {
       background-color: transparent;
+      color: $text-color1 !important;
     }
   }
 
   .hero__right {
-    //     width: 40%;
+    display: grid;
+    place-content: center;
 
     img {
-      width: 650px;
+      width: 500px;
     }
   }
 }
-
-// .hex {
-//   position: absolute;
-//   background-color: #ffffff;
-//   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-//   box-shadow: -33px 28px 5px 0px rgba(0,0,0,0.75);
-// }
-
-// .hexagon1 {
-//   width: 350px;
-//   height: 310px;
-//   top: 150px;
-//   left: 67%;
-//   color: #111;
-//   h2 {
-//     position: absolute;
-//   }
-// }
-
-// .hexagon2 {
-//   width: 200px;
-//   height: 170px;
-//   top: 400px;
-//   left: 58%;
-// }
-
-// .hexagon3 {
-//   width: 90px;
-//   height: 80px;
-//   top: 480px;
-//   left: 73%;
-// }
 
 // media queries
 @media screen and (max-width: 640px) {

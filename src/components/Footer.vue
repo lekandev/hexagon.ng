@@ -14,5 +14,6 @@ export default {
 footer {
   text-align: center;
   padding: 30px;
+  border-top: 0.5px solid #888;
 }
 </style>

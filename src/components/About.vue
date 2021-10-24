@@ -27,7 +27,7 @@ export default {
 <style scoped lang="scss">
 @import "./utilities/_variables";
 .about {
-  padding: 100px 100px 0px 100px;
+  padding: 100px 100px 100px 100px;
 
   .about__container {
     display: flex;
@@ -53,7 +53,7 @@ export default {
 
 @media screen and (max-width: 640px) {
   .about {
-    padding: 50px 50px 0px 50px;
+    padding: 50px 50px 50px 50px;
 
     .about__container {
       flex-direction: column;

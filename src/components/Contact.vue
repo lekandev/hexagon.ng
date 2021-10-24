@@ -2,6 +2,10 @@
   <section class="contact">
     <div class="contact__form">
       <h2 class="contact__title">Contact Us</h2>
+      <p class="contact__epistle">
+        "The internet is a very busy highway, come lets direct some of that
+        traffic to you"
+      </p>
       <form action="" method="POST">
         <input type="text" placeholder="John Doe" />
         <input type="text" placeholder="johndoe@gmail.com" />
@@ -32,7 +36,15 @@ export default {
 
     .contact__title {
       text-align: center;
-      margin-bottom : 20px;
+      margin-bottom: 15px;
+      color: $text-color1;
+    }
+
+    .contact__epistle {
+      text-align: center;
+      width: 300px;
+      margin-bottom: 15px;
+      color: $text-color3;
     }
 
     form {

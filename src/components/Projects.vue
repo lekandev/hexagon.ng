@@ -44,13 +44,14 @@ export default {
 
   h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    color: $text-color1;
   }
 
   .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
-    grid-row-gap: 40px;
+    row-gap: 50px;
   }
 }
 

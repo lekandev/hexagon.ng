@@ -27,6 +27,7 @@ export default {
     width: 500px;
     overflow: hidden;
     margin-bottom: 10px;
+    border-radius: 5px;
   }
 
   h2 {

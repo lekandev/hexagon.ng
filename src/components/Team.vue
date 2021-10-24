@@ -66,6 +66,7 @@ export default {
   .team__title {
     text-align: center;
     margin-bottom: 50px;
+    color: $text-color1;
   }
 
   .team__container {

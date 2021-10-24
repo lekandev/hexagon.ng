@@ -1,6 +1,6 @@
 <template>
     <section class="devProcess">
-        <h2 class="devProcess__title">Our Development Process</h2>
+        <h2 class="devProcess__title">Development Process</h2>
         <ul class="devProcesses">
             <li class="process">
                 <img src="../assets/undraw_Wireframing.svg" alt="">
@@ -29,10 +29,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./utilities/_variables";
 .devProcess {
 
     .devProcess__title {
         text-align: center;
+        color: $text-color1;
     }
 
     .devProcesses {
@@ -43,19 +45,16 @@ export default {
         text-align: center;
         gap: 30px;
         margin: 50px 100px;
-
-        //  .process:not(:last-child) {
-        //    margin-right: 40px;
-        //  }
     
         .process {
             width: 220px;
             height: 220px;
             padding: 10px;
             border-radius: 50%;
-            background-color: rgba(116, 252, 6, 0.45);
+            background-color: rgba(255, 255, 255, 0.45);
             display: grid;
             place-content: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 15px 0px;
 
             img {
             width: 120px;
